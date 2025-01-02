@@ -1,0 +1,24 @@
+services:
+  front:
+    container_name: tabeyo-react-front
+    # Dockerfileをビルド
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 10000:5173
+    volumes:
+      - type: bind
+        source: ./app
+        target: /usr/src/app
+      - type: volume
+        source: front_node_modules
+        target: /usr/src/app/web/node_modules
+    environment:
+      - NODE_ENV=development
+    command: sh -c "cd web && npm install && npm run dev -- --host"
+    stdin_open: true
+
+# 名前付きボリューム
+volumes:
+  front_node_modules:
