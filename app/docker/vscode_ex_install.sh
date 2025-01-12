@@ -8,6 +8,7 @@ extensions=(
     "esbenp.prettier-vscode"
     "visualstudioexptteam.vscodeintellicode"
     "visualstudioexptteam.intellicode-api-usage-examples"
+    "csstools.postcss"
 )
 
 # 各拡張機能をインストール
