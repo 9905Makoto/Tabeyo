@@ -102,12 +102,12 @@ function Form() {
                   パスワード
                 </label>
                 <div className="text-sm">
-                  <a
+                  {/* <a
                     href="#"
                     className="font-semibold text-[#82C05A] hover:text-[#6FA94B]"
                   >
                     Forgot password?
-                  </a>
+                  </a>  */}
                 </div>
               </div>
               <div className="mt-2">
