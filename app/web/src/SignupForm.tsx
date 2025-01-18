@@ -1,8 +1,9 @@
 import { useState } from "react";
 import "./Form.css";
 import tabeyoLogo from "./assets/tabeyo.svg";
+import { Link } from "react-router-dom";
 
-function Form() {
+function SignupForm() {
   const [userId, setUserId] = useState<string>("");
   const [userIdError, setUserIdError] = useState<string>("");
   const [password, setPassword] = useState<string>("");
@@ -139,12 +140,12 @@ function Form() {
 
           <p className="mt-10 text-center text-sm/6 text-gray-500">
             すでに登録済みですか?{" "}
-            <a
-              href="#"
+            <Link
+              to="/signin"
               className="font-semibold text-[#82C05A] hover:text-[#6FA94B]"
             >
               ログインはこちらから
-            </a>
+            </Link>
           </p>
         </div>
       </div>
@@ -152,4 +153,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default SignupForm;

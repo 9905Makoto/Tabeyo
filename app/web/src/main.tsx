@@ -1,10 +1,20 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
+import React from "react";
+import ReactDOM from "react-dom/client";
 import "./index.css";
-import Form from "./Form.tsx";
+import SignupForm from "./SignupForm";
+import SigninForm from "./SigninForm";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <Form />
-  </StrictMode>
+// ルートを作成
+const root = ReactDOM.createRoot(document.getElementById("root")!);
+
+root.render(
+  <React.StrictMode>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/signup" element={<SignupForm />} />
+        <Route path="/signin" element={<SigninForm />} />
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>
 );
