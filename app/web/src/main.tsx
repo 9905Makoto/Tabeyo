@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import SignupForm from "./SignupForm";
 import SigninForm from "./SigninForm";
+import SelectFoods from "./SelectFoods";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // ルートを作成
@@ -14,6 +15,7 @@ root.render(
       <Routes>
         <Route path="/signup" element={<SignupForm />} />
         <Route path="/signin" element={<SigninForm />} />
+        <Route path="/select" element={<SelectFoods />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
