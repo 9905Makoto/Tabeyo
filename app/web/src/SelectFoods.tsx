@@ -8,15 +8,33 @@ import { Checkbox } from "@/components/ui/checkbox";
 function SelectFoods() {
   return (
     <>
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
+      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 space-y-2">
         <div>
           <Header />
+        </div>
+        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
+          <p>今日食べる食材を選んでください</p>
         </div>
         <div>
           <FoodCard />
         </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
+        <div>
+          <FoodCard />
+        </div>
+        <div>
+          <FoodCard />
+        </div>
+        <div>
+          <FoodCard />
+        </div>
+        <div>
+          <FoodCard />
+        </div>
+        <div>
+          <FoodCard />
+        </div>
+        <div>
+          <FoodCard />
         </div>
         <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
           <p>今日食べる食材を選んでください</p>
