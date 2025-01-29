@@ -8,7 +8,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 function SelectFoods() {
   return (
     <>
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 space-y-2">
+      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 space-y-4">
         <div>
           <Header />
         </div>
