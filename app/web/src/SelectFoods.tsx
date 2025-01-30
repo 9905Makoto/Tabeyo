@@ -8,12 +8,10 @@ import { Checkbox } from "@/components/ui/checkbox";
 function SelectFoods() {
   return (
     <>
-      <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 space-y-4">
-        <div>
-          <Header />
-        </div>
+      <Header />
+      <div className="flex min-h-full flex-1 flex-col justify-center items-center px-6 pt-20 lg:px-8 space-y-4">
         <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
+          <p>今日食べる食材を５つまで選んでください</p>
         </div>
         <div>
           <FoodCard />
@@ -36,67 +34,15 @@ function SelectFoods() {
         <div>
           <FoodCard />
         </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
+        <div>
+          <FoodCard />
         </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
+        <div>
+          <FoodCard />
         </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
+        <div>
+          <FoodCard />
         </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-        <div className="text-center text-2xl/9 font-bold tracking-tight text-gray-900">
-          <p>今日食べる食材を選んでください</p>
-        </div>
-
         <div className="sm:mx-auto sm:w-full sm:max-w-sm"></div>
       </div>
     </>
