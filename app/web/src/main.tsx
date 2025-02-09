@@ -4,6 +4,7 @@ import "./index.css";
 import SignupForm from "./SignupForm";
 import SigninForm from "./SigninForm";
 import SelectFoods from "./SelectFoods";
+import TabeyoList from "./TabeyoList";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // ルートを作成
@@ -16,6 +17,7 @@ root.render(
         <Route path="/signup" element={<SignupForm />} />
         <Route path="/signin" element={<SigninForm />} />
         <Route path="/select" element={<SelectFoods />} />
+        <Route path="/list" element={<TabeyoList />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
